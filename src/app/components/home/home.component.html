@@ -1,41 +1,54 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-
 <div class="container">
-  <h2>Contextual Classes</h2>
-  <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Surname</th>
-        <th>Email</th>
-        <th>Employee number</th>
-        <th>Address</th>
-
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Default</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
-      </tr>      
-         </tbody>
-  </table>
-</div>
-
-</body>
-</html>
-
-<router-outlet></router-outlet>
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Employee
+              </th>
+              <
+              <th scope="col">Article Name</th>
+              <th scope="col">Author</th>
+              <th scope="col">Shares</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Bootstrap 4 CDN and Starter Template</td>
+              <td>Cristina</td>
+              <td>2.846</td>
+              <td>
+                <button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button>
+                <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button>
+              <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Bootstrap Grid 4 Tutorial and Examples</td>
+              <td>Cristina</td>
+              <td>3.417</td>
+              <td>
+                <button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button>
+                <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button>
+              <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Bootstrap Flexbox Tutorial and Examples</td>
+              <td>Cristina</td>
+              <td>1.234</td>
+              <td>
+                <button type="button" class="btn btn-primary"><i class="far fa-eye"></i></button>
+                <button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button>
+              <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
