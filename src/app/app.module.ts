@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ViewComponent } from './components/view/view.component';
 import { AddComponent } from './components/add/add.component';
 import { UpdateComponent } from './components/update/update.component';
+import { ReactiveFormsModule } from '@angular/forms'; //to help with the validation and reactiveness of the forms
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UpdateComponent } from './components/update/update.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule //Works with the reactive forms, making them actve 
   ],
   providers: [],
   bootstrap: [AppComponent]
