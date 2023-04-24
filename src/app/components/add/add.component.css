@@ -2,49 +2,66 @@ form{
     text-align: center;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    border-style: solid;
     margin-left: 15rem;
     margin-right: 15rem;
     margin-top: none;
+<<<<<<< HEAD
+=======
+    border-radius: 8px;
+    
 }
-
+.container{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+>>>>>>> 5faa37f9287208630f359f87e6993a9c24a8e723
+}
 h1{
     text-align: center;
     padding-top: 2rem;
-    background-color: black;
+    background-color: rgb(166, 208, 248);
     color: white;
     margin-left: 15rem;
     margin-right: 15rem;
+    border-radius: 5px;
 }
 
 input{
     padding-right: 5rem;
-    margin-inline-start: 2rem;
     border-top:none;
     border-left:none;
     border-right: none;
-    
-    padding-top: 15px;
+    border-radius: 5px;
+    padding-top: 20px;
     width: 25rem;
     height: 35px;
 }
 
 label{
     font-size: larger;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-inline-start: 1rem;
     text-align: center;
+<<<<<<< HEAD
+=======
+    margin-right: 20px;
+
+>>>>>>> 5faa37f9287208630f359f87e6993a9c24a8e723
 }
 
 button{
     margin-top: 2rem;
     width: 15rem;
     height: 5rem;
-    background-color: rgb(54, 174, 213);
+    background-color: rgb(166, 208, 248);
     border-radius: 3rem;
 }
 
 .address{
     margin-left: 2rem;
+<<<<<<< HEAD
     display:flex
+=======
+    gap: 15px;
+    display: flex;
+>>>>>>> 5faa37f9287208630f359f87e6993a9c24a8e723
 }
