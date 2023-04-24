@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/*<<<<<<< HEAD*/
+>>>>>>> df2400907ab410bba225f9d5b5f3dff2890cfbac
 @import "~bootstrap/dist/css/bootstrap.css";
 h1{
     padding-left: 4rem
@@ -6,9 +10,19 @@ h1{
 .form-container{
     padding-left: 4rem;
     padding-right: 30rem;
+<<<<<<< HEAD
 =======
 html{
     background-color: #f4f4f4f4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 >>>>>>> 5faa37f9287208630f359f87e6993a9c24a8e723
+=======
+} 
+
+/*=======*/
+html{
+    background-color: #f4f4f4f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+>>>>>>> df2400907ab410bba225f9d5b5f3dff2890cfbac
 }
+/*>>>>>>> 5faa37f9287208630f359f87e6993a9c24a8e723*/

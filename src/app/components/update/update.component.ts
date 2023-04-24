@@ -11,10 +11,14 @@ export class UpdateComponent {
 }
 
 function getUpdatedEmployee(): void {
-  let empNo = document.getElementById("empNo")
+   
+  let empNo = document.getElementById("empNo");
+  let name = document.getElementById("name");
+  
 
+  console.log(empNo);
+  console.log(name)
 
-  alert
 }
 
 
