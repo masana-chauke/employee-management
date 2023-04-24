@@ -1,0 +1,12 @@
+.card{
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    border-width: 0.5px;
+    background-color: white;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(53, 53, 53);
+
+}
