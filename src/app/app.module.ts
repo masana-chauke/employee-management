@@ -8,6 +8,7 @@ import { ViewComponent } from './components/view/view.component';
 import { AddComponent } from './components/add/add.component';
 import { UpdateComponent } from './components/update/update.component';
 import { ReactiveFormsModule } from '@angular/forms'; //to help with the validation and reactiveness of the forms
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
