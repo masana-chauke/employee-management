@@ -1,73 +1,61 @@
-<<<<<<< HEAD
-<div class="container">
-    <div class="row">
-      <div class="col-12">
-        <button type="button" class="btn_add-primary"><i class="far fa-eye"></i>Add Employee</button>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">Employee</th>
-              <th scope="col">Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row"></th>
-            
-              <td></td>
-              <td></td>
-              <th>
-              <td class="btn_structucture">
-                <button type="button" class="btn btn-primary"><i class="far fa-eye"></i>View</button>
-                <button type="button" class="btn btn-success"><i class="fas fa-edit"></i>UPDATE</button>
-              <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i>DELETE</button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-=======
+<h1 class="heading">List of Employees</h1>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
 
-<div class="container">
-  <h2>Contextual Classes</h2>
-  <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Surname</th>
-        <th>Email</th>
-        <th>Employee number</th>
-        <th>Address</th>
 
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Default</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
-      </tr>      
-         </tbody>
-  </table>
-</div>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">First name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Employee number</th>
+      <th scope="col">Address</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>01234</td>
+      <td>12 Main Street</td>
+      <td class="btn_structucture">
+        <button type="button" class="btn btn-primary"><i class="far fa-eye"></i>View</button>
+        <button type="button" class="btn btn-success"><i class="fas fa-edit"></i>UPDATE</button>
+      <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i>DELETE</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>01234</td>
+      <td>12 Main Street</td>
+      <td class="btn_structucture">
+        <button type="button" class="btn btn-primary"><i class="far fa-eye"></i>View</button>
+        <button type="button" class="btn btn-success"><i class="fas fa-edit"></i>UPDATE</button>
+      <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i>DELETE</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>01234</td>
+      <td>12 Main Street</td>
+      <td class="btn_structucture">
+        <button type="button" class="btn btn-primary"><i class="far fa-eye"></i>View</button>
+        <button type="button" class="btn btn-success"><i class="fas fa-edit"></i>UPDATE</button>
+      <button type="button" class="btn btn-danger"><i class="far fa-trash-alt"></i>DELETE</button>
+      </td>
+    </tr>
 
-</body>
-</html>
+  </tbody>
+</table>
 
-<router-outlet></router-outlet>
->>>>>>> 5faa37f9287208630f359f87e6993a9c24a8e723
+<button class="addBtn">Add Employee</button>
