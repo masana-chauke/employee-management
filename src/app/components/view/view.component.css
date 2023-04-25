@@ -1,12 +1,16 @@
-.card{
-    margin: auto;
+.container{
+    background-color: #f4f4f4;
     border-radius: 5px;
-    display: flex;
-    border-width: 0.5px;
-    background-color: white;
 }
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(53, 53, 53);
+h2{
+    text-align: center;
+    padding-top: 2rem;
+    background-color: rgb(166, 208, 248);
+    color: white;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-radius: 5px;
+}
 
-}
+
+
