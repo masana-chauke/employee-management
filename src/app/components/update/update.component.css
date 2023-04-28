@@ -44,10 +44,11 @@ label{
 
 button{
     margin-top: 2rem;
-    width: 15rem;
-    height: 5rem;
+    width: 9rem;
+    height: 3rem;
     background-color: rgb(166, 208, 248);
     border-radius: 3rem;
+    padding-bottom: 0px;
 }
 
 .address{
