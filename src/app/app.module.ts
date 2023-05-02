@@ -9,6 +9,7 @@ import { AddComponent } from './components/add/add.component';
 import { UpdateComponent } from './components/update/update.component';
 import { ReactiveFormsModule } from '@angular/forms'; //to help with the validation and reactiveness of the forms
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule //Works with the reactive forms, making them actve 
+    ReactiveFormsModule,
+    BrowserAnimationsModule //Works with the reactive forms, making them actve 
   ],
   providers: [],
   bootstrap: [AppComponent]
