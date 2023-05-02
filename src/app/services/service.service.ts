@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -33,9 +34,12 @@ export class ServiceService {
     return this.http.get(this.url)
   }
   
-  getEmployee(id:number){
-    return this.http.get(this.url+id)
+  getEmployee(empId:any): Observable<any[]>{
+    return this.http.get<any>(`http://localhost:8080/employees${empId}`)
   }
+  /*getEmployee(empId:number){
+    return this.http.get(this.url+empId)
+  }*/
 
   addEmployee(body:any){
     this.http.post(this.url,body)
