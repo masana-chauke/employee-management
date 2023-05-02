@@ -29,22 +29,26 @@ export class ServiceService {
   } */
 
 
-  getProductAll(){
-    return this.http.get('https://fakestoreapi.com/products%27')
+  getEmployeeAll(){
+    return this.http.get('https://api.slingacademy.com/v1/sample-data/users')
 
   }
 
-  getProduct(id:number){
+  getEmployee(id:number){
     return this.http.get('https://fakestoreapi.com/products%27'+id)
 
   }
 
 
-  createProduct(body:any){
+  addEmployee(body:any){
     this.http.post('https://fakestoreapi.com/products%27',body)
   }
 
-  updateProduct(id:number,body:any){
+  updateEmployee(id:number,body:any){
       return this.http.put('https://fakestoreapi.com/products%27'+id,body)
+  }
+
+ deleteData(id:any){
+    return this.http.delete("https://fakestoreapi.com/products"+id)
   }
 }
