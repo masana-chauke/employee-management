@@ -25,7 +25,7 @@
       <td>12 Main Street</td>
       <td class="btn_structucture">
         <button type="button" class="btn btn-primary" routerLink="/view">View</button>
-        <button type="button" class="btn btn-success" routerLink="/update">UPDATE</button>
+        <button type="button" (click) = "delete(items.id)" class="btn btn-success" routerLink="/update">UPDATE</button>
       <button type="button" class="btn btn-danger" routerLink="/view">DELETE</button>
       </td>
     </tr>

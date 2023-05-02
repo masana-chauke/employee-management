@@ -45,7 +45,7 @@ export class ServiceService {
       return this.http.put(this.url+id,body)
   }
 
- deleteData(id:any){
+ deleteEmployee(id:any){
     return this.http.delete(this.url+id)
   }
 }
