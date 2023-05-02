@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialog} from '@angular/material/dialog'
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import {MatDialog} from '@angular/material/dialog'
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,//working with reactives 
-    BrowserAnimationsModule //Works with the reactive forms, making them actve 
+    BrowserAnimationsModule, //Works with the reactive forms, making them actve 
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
