@@ -1,17 +1,14 @@
 .heading{
     color:black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Gruppo;
     margin-top: 30px ;
-    text-align: center;
-    margin-right:210px;
+    text-align: center; 
+    margin-left: 0px;
     margin-bottom: 20px;
 }
 .table{
     background-color: #f4f4f4;
-    margin-left: 20px;
-    margin-right: 200px;
-    max-width: 1400px;
-    align-items: center;
+ 
 }
 .addBtn{
 background-color:rgb(166,208, 248);
@@ -29,4 +26,6 @@ margin-right: 40px;
 
 .thead-dark{
     color:rgb(166,208, 248);
+    font-family: Gruppo;
+    font-size: 20px;
 }
