@@ -10,6 +10,7 @@ import { UpdateComponent } from './components/update/update.component';
 import { ReactiveFormsModule } from '@angular/forms'; //to help with the validation and reactiveness of the forms
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatDialog} from '@angular/material/dialog'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule,
+    ReactiveFormsModule,//working with reactives 
     BrowserAnimationsModule //Works with the reactive forms, making them actve 
   ],
   providers: [],

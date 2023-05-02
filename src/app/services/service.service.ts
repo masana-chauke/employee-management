@@ -40,8 +40,8 @@ export class ServiceService {
   }
 
 
-  createProduct(body:any){
-    this.http.post('https://fakestoreapi.com/products%27',body)
+  addEmployee(body:any){
+    return this.http.post('',body)
   }
 
   updateProduct(id:number,body:any){
